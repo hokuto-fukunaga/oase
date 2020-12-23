@@ -97,7 +97,7 @@ AUTHENTICATION_BACKENDS = [
 ################################################################
 # セッション管理
 ################################################################
-SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_ENGINE = 'django.contrib.sessions.backends.file'
 
 ################################################
 # ファイル

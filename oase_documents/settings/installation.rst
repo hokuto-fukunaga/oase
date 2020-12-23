@@ -190,10 +190,9 @@ OASEのインストール手順を下記に示します。
    16, mavenrep_path, /root/.m2/repository/com/oase/, Mavenリポジトリのディレクトリ
    17, oasemail_smtp, "{'IPADDR':'127.0.0.1','PORT':25,'AUTH':False}", OASEで使用するメールのSMTP設定
    18, oase_directory, /exastro, OASEのインストールディレクトリ
-   19, oase_session_engine, file, OASEのセッション管理方法（DB：db/ファイル：file/キャッシュ：cache）
-   20, ev_location, 127.0.0.1, EVTIMERサーバを設定したサーバのIPアドレス
-   21, oase_language, ja, OASEの言語設定（日本語：ja）
-   22, oase_os, , OASEをインストールするサーバのOS（CentOS7/RHEL7/RHEL8）
+   19, ev_location, 127.0.0.1, EVTIMERサーバを設定したサーバのIPアドレス
+   20, oase_language, ja, OASEの言語設定（日本語：ja）
+   21, oase_os, , OASEをインストールするサーバのOS（CentOS7/RHEL7/RHEL8）
 
 
 3.1.5. アンサーファイルのサンプル
@@ -314,10 +313,6 @@ OASEのインストール手順を下記に示します。
  ##############################
  # settings.py
  ##############################
- # Select Session management.("db" or "file" or "cache")
- # e.g) oase_session_engine:cache
- oase_session_engine:file
-
  # Decide the EVTIMER SERVER location
  # e.g) ev_location:127.0.0.1
  ev_location:127.0.0.1
